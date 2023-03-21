@@ -14,7 +14,7 @@ python >= 3.8
 
 ## Contents
 
-The project contains 3 folders and 5 files.
+The project contains 3 folders and 6 files.
 
 1. data (folder): All datasets are in this folder.
 2. comm (folder): This folder is used for community discovery.
@@ -22,8 +22,9 @@ The project contains 3 folders and 5 files.
 4. main.py (file): The file is used to obtain the results of PrivGraph for End-to-End experiments.
 5. main_vary_N.py (file): The file is used to obtain the results for different number of nodes.
 6. main_vary_eps.py (file): The file is used to obtain the results for different privacy budget allocations.
-7. IM_spread.py (file): The file is used to obtain the results of influence maximization.
-8. utils.py (file): The file includes some functions that are needed for other files.
+7. main_vary_t.py (file): The file is used to obtain the results for different resolution parameters.
+8. IM_spread.py (file): The file is used to obtain the results of influence maximization.
+9. utils.py (file): The file includes some functions that are needed for other files.
 
 ## Run
 
@@ -43,4 +44,18 @@ python main_vary_t.py
 
 ###### Example 5: Influence Maximization ######
 python IM_spread.py
+```
+
+## Citation
+
+```
+
+ @inproceedings{YZDCCS23,
+    author = {Quan Yuan and Zhikun Zhang and Linkang Du and Min Chen and Peng Cheng and Mingyang Sun},
+    title = {{PrivGraph: Differentially Private Graph Data Publication by Exploiting Community Information}},
+    booktitle = {{USENIX Security}},
+    publisher = {},
+    year = {2023},
+}
+
 ```
