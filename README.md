@@ -49,7 +49,6 @@ python IM_spread.py
 ## Citation
 
 ```
-
  @inproceedings{YZDCCS23,
     author = {Quan Yuan and Zhikun Zhang and Linkang Du and Min Chen and Peng Cheng and Mingyang Sun},
     title = {{PrivGraph: Differentially Private Graph Data Publication by Exploiting Community Information}},
@@ -57,5 +56,4 @@ python IM_spread.py
     publisher = {},
     year = {2023},
 }
-
 ```
